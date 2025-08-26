@@ -996,11 +996,11 @@ The recursive method breaks down the problem into smaller subproblems. The core 
 
 ### 1.  have N goroutines producing data and M goroutines consuming it — how would you manage synchronization without deadlock?
 
-[code](./dsa/assignment1/solve.go)
+[code](/problem-solving-and-logical-thinking/assignment1/solve.go)
 
 ### 2. How would  implement a worker pool pattern in Go?
 
-[code](./dsa/assignment2/solve.go)
+[code](/problem-solving-and-logical-thinking/assignment2/solve.go)
 
 ### 3. A Go program works fine locally but hangs in production — how would  debug it?
 
@@ -1036,7 +1036,7 @@ Once  have a strong hypothesis from the previous steps, I can review the code fo
 
 ### 4. Given two sorted arrays, find their intersection in O(n) time without extra memory.
 
-[code](./dsa/assignment4/solve.go)
+[code](/problem-solving-and-logical-thinking/assignment4/solve.go)
 
 ### 5.  have a function that leaks goroutines — how would you find the root cause?
 
@@ -1058,7 +1058,7 @@ Goroutine leaks are typically caused by goroutines that are blocked forever, oft
 
 ### 7. How would  merge K sorted linked lists efficiently in Go?
 
-[code](./dsa/assignment6/solve.go)
+[code](/problem-solving-and-logical-thinking/assignment7/solve.go)
 
 ### 8. A Go application is experiencing high CPU usage — how would  profile it?
 
@@ -1076,7 +1076,7 @@ I can profile a Go application for high CPU usage using the built-in pprof tool.
 
 ### 9. Implement debounce and throttle mechanisms in Go.
 
-[code](/dsa/assignment9/solve.go)
+[code](/problem-solving-and-logical-thinking/assignment9/solve.go)
 
 ### 10. Given a list of jobs with dependencies, how would you schedule them in Go?
 
@@ -1376,7 +1376,7 @@ Test: Two goroutines generating numbers → Output interleaved into one channel.
 Distribute work from one channel to multiple goroutines.
 Test: Single producer, 3 workers → Work evenly split.
 
-[code](/concurrency-and-goroutine/asssignment5/solve.go)
+[code](/concurrency-and-goroutine/assignment5/solve.go)
 
 ### 6. Timeout on Channel Read
 Read from a channel with a timeout using select.
