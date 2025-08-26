@@ -1207,15 +1207,15 @@ In summary, for simple or low-contention caches, a **`sync.Mutex`** is perfectly
 
 ### 13. Implement producer-consumer problem using only channels.
 
-[code](/dsa/assignment13/solve.go)
+[code](/problem-solving-and-logical-thinking/assignment13/solve.go)
 
 ### 14. How would you implement a rate limiter in Go?
 
-[code](/dsa/assignment14/solve.go)
+[code](/problem-solving-and-logical-thinking/assignment14/solve.go)
 
 ### 15. Explain how you’d handle timeouts in network calls in Go.
 
-[code](/dsa/assignment15/solve.go)
+[code](/problem-solving-and-logical-thinking/assignment15/solve.go)
 
 ### 16. How would you merge overlapping intervals in Go?
 
